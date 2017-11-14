@@ -65,6 +65,16 @@
                 font-size: 1.25em;
             }
         </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+               $("button").click(function(){
+                  $("ul.professional-interests").fadeToggle();
+                  $("ul.Computer Science Major").animate();
+                  
+              }); 
+  });
+        </script>
     </head>
     <body>
         <div id="all-contents">
@@ -90,6 +100,19 @@
                             <li>Gaming</li>
                             <li>Working Out</li>
                             <li>Eating</li>
+                        </ul>
+                    </section>
+                </div>
+            </main>
+            <main>
+                <div class="content">
+                    <header>Professional Insterests</header>
+                    <section class ="interests">
+                        <button>Use me to see my professional interests</button>
+                        <ul class="professional-interests">
+                            <li>Computer Science Major</li>
+                            <li>Human and health phsyiology</li>
+                            <li>JavaScript</li>
                         </ul>
                     </section>
                 </div>
